@@ -8,15 +8,33 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- normal CSS -->
+    <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Font awesome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
+    <!-- **************************Header start************************** -->
     <div class="header" id="topheader">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container text-uppercase">
-          <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container text-uppercase p-2">
+          <a class="navbar-brand font-weight-bold text-white" href="#"
+            >Navbar</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -52,7 +70,55 @@
           </div>
         </div>
       </nav>
+
+      <section class="header-section">
+        <div class="center-div">
+          <h1 class="font-weight-bold">We are the web developers</h1>
+          <p>We create the best website</p>
+          <div class="header-buttons">
+            <a href="#">AboutUs</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </section>
     </div>
+    <!-- **************************Header end************************** -->
+    <!-- ***********************three extra div start******************** -->
+    <section class="header-extradiv">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <a href=""
+              ><i class="fa-3x fa fa-desktop" arial-hidden="true"></i
+            ></a>
+            <h2>EASY TO USE</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
+              vel non illum, debitis fugiat.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <a href=""><i class="fa-3x fa fa-magic" arial-hidden="true"></i></a>
+            <h2>EASY TO CUSTOMIZE</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
+              vel non illum, debitis fugiat.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <a href=""
+              ><i class="fa-3x fa fa-trophy" arial-hidden="true"></i
+            ></a>
+            <h2>AWESOME DESIGN</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
+              vel non illum, debitis fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***********************three extra div end******************** -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
